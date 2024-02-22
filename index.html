@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- !Cargando fuentes e iconos -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+
+    <!-- !Cargando Estilos CSS -->
+
+    <link rel="stylesheet" href="./assets/fonts/dmsans/dmsans.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="assets/css/dark-mode.css"> -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <!-- !Cargando Scripts JS-->
+    <script src="assets/js/menu-mobile.js"></script>
+    <script src="assets/js/navbar-fixed.js"></script>
+    <script src="assets/js/dark.js"></script>
+    <title>Agencia Web</title>
+</head>
+
+<body>
+
+    <!-- ? boton modo oscuro -->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-lightbulb switcher__icon"></i>
+            </span>
+        </button>
+    </div>
+    <!-- ? boton modo oscuro -->
+
+
+
+    <!-- * opciones del menu responsivo -->
+    <div class="menu-mobile">
+
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a class="menu-mobile__link-logo" href="#">
+                    <img class="menu-mobile__logo" src="./assets/img/logo1.png" alt="logo sitio web">
+                    <img class="menu-mobile__logo2" src="./assets/img/logo2.png" alt="logo sitio web">
+                </a>
+            </div>
+
+            <!-- !icon para cerrar sidebar -->
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon fa-solid fa-xmark"></i>
+            </button>
+            <!-- !icon para cerrar sidebar -->
+
+
+        </header>
+
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Home</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">
+                            Services
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Web Design</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Web Developer</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Movil Develop</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Programming</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Consulting</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">
+                            Portfolio
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Web Design</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Web Developer</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Movil Develop</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Programming</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Consulting</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">
+                            Blog
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Web Design</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Web Developer</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Movil Develop</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Programming</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Consulting</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Team</a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </div>
+
+    <!-- * opciones del menu responsivo -->
+
+    <div class="layout">
+        <!-- !Seccion 1---------------------------- -->
+        <!-- ?Menu -->
+        <section class="layout__menu">
+            <header class="menu__navbar">
+                <!-- ?Logo-Navabar -->
+                <div class="navbar__logo">
+                    <a href="#" class="navbar__link-logo">
+                        <img src="./assets/img/logo1.png" class="navbar__logo-light" alt="">
+                        <img src="./assets/img/logo2.png" class="navbar__logo-dark" alt="">
+                    </a>
+                </div>
+                <!-- ?Logo-Navabar -->
+
+                <!-- !boton menu responsivo -->
+                <div class="navbar__mobile-btn">
+                    <button class="mobile-btn__wrap">
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                    </button>
+                </div>
+                <!-- !boton menu responsivo -->
+
+                <!-- ?Navgacion-Navbar -->
+                <nav class="navbar__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">
+                                Services
+                                <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Web Design</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Web Developer</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Movil Develop</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Programming</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Consulting</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">
+                                Portfolio
+                                <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Web Design</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Web Developer</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Movil Develop</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Programming</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Consulting</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">
+                                Blog
+                                <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Web Design</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Web Developer</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Movil Develop</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Programming</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Consulting</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Team</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- ?Navgacion-Navbar -->
+            </header>
+        </section>
+        <!-- ?Menu -->
+        <!-- !Seccion 1---------------------------- -->
+
+        <!-- !Seccion 2---------------------------- -->
+        <!-- ?Banner -->
+        <section class="layout__banner">
+            <!-- ?Contenido del banner -->
+            <header class="banner__content">
+                <h1 class="banner__title">Web & Develop</h1>
+                <a href="#" class="banner__btn">See Projects</a>
+            </header>
+            <!-- ?Contenido del banner -->
+
+            <!-- ?Formas e imagenes del banner -->
+            <div class="banner__shapes">
+                <ul class="shape__list">
+                    <li class="shapes__item shapes__item--shape1">
+                        <div class="shapes__container">
+                            <img src="./assets/img/banner-shape-1.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+                    <li class="shapes__item shapes__item--shape2">
+                        <div class="shapes__container">
+                            <img src="./assets/img/banner-shape-2.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+
+                    <li class="shapes__item shapes__item--shape3">
+                        <div class="shapes__container">
+                            <img src="./assets/img/bubble-16.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+
+                    <li class="shapes__item shapes__item--shape4">
+                        <div class="shapes__container">
+                            <img src="./assets/img/bubble-15.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+
+                    <li class="shapes__item shapes__item--shape5">
+                        <div class="shapes__container">
+                            <img src="./assets/img/bubble-14.png" class="shapes__img img-5" alt="">
+                        </div>
+                    </li>
+
+                    <li class="shapes__item shapes__item--shape6">
+                        <div class="shapes__container">
+                            <img src="./assets/img/bubble-16.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+
+                    <li class="shapes__item shapes__item--shape7">
+                        <div class="shapes__container">
+                            <img src="./assets/img/bubble-26.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+
+                    <li class="shapes__item shapes__item--shape8">
+                        <div class="shapes__container">
+                            <img src="./assets/img/ovni.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+
+
+                    <li class="shapes__item shapes__item--shape9">
+                        <div class="shapes__container">
+                            <img src="./assets/img/astronaut.png" class="shapes__img" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- ?Formas e imagenes del banner -->
+
+
+        </section>
+        <!-- ?Banner -->
+        <!-- !Seccion 2---------------------------- -->
+
+        <!-- !Seccion 3---------------------------- -->
+        <!-- ?Servicios -->
+        <section class="layout__services">
+
+            <div class="services__grid">
+
+                <header class="services__header">
+                    <p class="services__sutitle">
+                        What can we do for you?
+                    </p>
+                    <h2 class="services__title">Our services for you.</h2>
+                </header>
+
+                <div class="services__list">
+
+                    <article class="services__service services__service--bottom">
+                        <div class="service__container-img">
+                            <img class="service__img" src="./assets/img/icon-1.png" alt="Desing">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">
+                                <a href="#" class="service__link">Design</a>
+                            </h3>
+                            <p class="service__description">
+                                From a website, a mobile application, to a brand...
+                            </p>
+                            <a class="service__more" href="#">Discover more</a>
+                        </div>
+                    </article>
+
+                    <article class="services__service  services__service--middle">
+                        <div class="service__container-img">
+                            <img class="service__img" src="./assets/img/icon-2.png" alt="Desing">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">
+                                <a href="#" class="service__link">Development</a>
+                            </h3>
+                            <p class="service__description">
+                                We will make the web and mobile applications you imagine a reality...
+                            </p>
+                            <a class="service__more" href="#">Discover more</a>
+                        </div>
+                    </article>
+
+                    <article class="services__service  services__service--top">
+                        <div class="service__container-img">
+                            <img class="service__img" src="./assets/img/icon-3.png" alt="Marketing">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__title">
+                                <a href="#" class="service__link">Marketing</a>
+                            </h3>
+                            <p class="service__description">
+                                We will make your digital project more visible...
+                            </p>
+                            <a class="service__more" href="#">Discover more</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <ul class="services__service-shapes">
+                <li class="service-shapes__item service-shapes--shapes1">
+                    <div class="service-shapes__container">
+                        <img class="service-shapes__img" src="./assets/img/circle-2.png" alt="">
+                    </div>
+                </li>
+
+                <li class="service-shapes__item service-shapes--shapes2">
+                    <div class="service-shapes__container">
+                        <img class="service-shapes__img" src="./assets/img/bubble-2.png" alt="">
+                    </div>
+                </li>
+
+                <li class="service-shapes__item service-shapes--shapes3">
+                    <div class="service-shapes__container">
+                        <img class="service-shapes__img" src="./assets/img/bubble-1.png" alt="">
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <!-- ?Servicios -->
+        <!-- !Seccion 3---------------------------- -->
+
+        <!-- !Seccion 4---------------------------- -->
+        <!-- ?Proyectos -->
+        <section class="layout__projects">
+            <div class="projects__grid">
+                <header class="projects__header">
+                    <p class="projects__subtitle">Our Porjects!</p>
+                    <h2 class="projects__title">Some of our best work</h2>
+                </header>
+
+                <ul class="projects__categories">
+                    <li class="categories__item categories__item--active">
+                        All jobs
+                    </li>
+                    <li class="categories__item">
+                        Web development
+                    </li>
+                    <li class="categories__item">
+                        Mobile development
+                    </li>
+                    <li class="categories__item">
+                        Web design
+                    </li>
+                </ul>
+
+                <div class="projects__all">
+                    <article class="projects__project">
+                        <div class="projects__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/project-1.jpg" class="project__img" alt="">
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">Creative Agency</a>
+                            </h3>
+
+                            <div class="projects__tags">
+                                <span class="project__tag">Brand,</span>
+                                <span class="project__tag">Web,</span>
+                                <span class="project__tag">Application,</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__project">
+                        <div class="projects__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/project-2.jpg" class="project__img" alt="">
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">Task management</a>
+                            </h3>
+
+                            <div class="projects__tags">
+                                <span class="project__tag">Brand,</span>
+                                <span class="project__tag">Web,</span>
+                                <span class="project__tag">Movil,</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__project">
+                        <div class="projects__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/project-3.jpg" class="project__img" alt="">
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">Social network</a>
+                            </h3>
+
+                            <div class="projects__tags">
+                                <span class="project__tag">Brand,</span>
+                                <span class="project__tag">Web,</span>
+                                <span class="project__tag">Application,</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__project">
+                        <div class="projects__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/project-4.jpg" class="project__img" alt="">
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">Digital agency</a>
+                            </h3>
+
+                            <div class="projects__tags">
+                                <span class="project__tag">Brand,</span>
+                                <span class="project__tag">UI/UX,</span>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__project">
+                        <div class="projects__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/project-5.jpg" class="project__img" alt="">
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">Portfolio</a>
+                            </h3>
+
+                            <div class="projects__tags">
+                                <span class="project__tag">Brand,</span>
+                                <span class="project__tag">Web,</span>
+                                <span class="project__tag">Application,</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__project">
+                        <div class="projects__container-img">
+                            <a href="#" class="project__link-img">
+                                <img src="./assets/img/project-6.jpg" class="project__img" alt="">
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">
+                                <a href="#" class="project__link-title">Web Application</a>
+                            </h3>
+
+                            <div class="projects__tags">
+                                <span class="project__tag">Logo,</span>
+                                <span class="project__tag">Web,</span>
+                                <span class="project__tag">Application,</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <ul class="projects__project-shapes">
+                <li class="project-shapes__item project-shapes--shapes1">
+                    <div class="project-shapes__container">
+                        <img class="project-shapes__img" src="./assets/img/circle-2.png" alt="">
+                    </div>
+                </li>
+
+                <li class="project-shapes__item project-shapes--shapes2">
+                    <div class="project-shapes__container">
+                        <img class="project-shapes__img" src="./assets/img/bubble-2.png" alt="">
+                    </div>
+                </li>
+
+                <li class="project-shapes__item project-shapes--shapes3">
+                    <div class="project-shapes__container">
+                        <img class="project-shapes__img" src="./assets/img/galaxya.png" alt="">
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <!-- ?Proyectos -->
+        <!-- !Seccion 5---------------------------- -->
+
+
+        <!-- !Seccion 6---------------------------- -->
+        <!-- ?Estadisticas -->
+        <section class="layout__stats">
+            <div class="stats__container">
+                <header class="stats__header">
+                    <h4 class="stats__subtitle">
+                        Design and development agency
+                    </h4>
+                    <h2 class="stats__title">Statistics of work carried out</h2>
+                    <p class="stats__description">
+                        Here you will see a summary of statistics from our years of work
+                    </p>
+                </header>
+
+                <div class="stats__progress">
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/icon-7.png" alt="">
+                        </div>
+
+                        <span class="stat__count">+15</span>
+                        <h6 class="stat__title">
+                            Active years.
+                        </h6>
+                    </article>
+
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/icon-8.png" alt="">
+                        </div>
+
+                        <span class="stat__count">+200</span>
+                        <h6 class="stat__title">
+                            Fulfilled projects.
+                        </h6>
+                    </article>
+
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/icon-9.png" alt="">
+                        </div>
+
+                        <span class="stat__count">+150</span>
+                        <h6 class="stat__title">
+                            Customers.
+                        </h6>
+                    </article>
+
+                    <article class="stats__stat">
+                        <div class="stat__icon">
+                            <img src="./assets/img/apple.png" alt="">
+                        </div>
+
+                        <span class="stat__count">+500</span>
+                        <h6 class="stat__title">
+                            Satisfied customers.
+                        </h6>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- ?Estadisticas -->
+        <!-- !Seccion 6---------------------------- -->
+
+        <!-- !Seccion 7---------------------------- -->
+        <!-- ?Resenas -->
+        <section class="layout__reviews">
+            <div class="reviews__grid">
+                <header class="reviews__header">
+                    <h4 class="reviews__subtitle">
+                        Reviews
+                    </h4>
+                    <h2 class="reviews__title">What do our clients think?</h2>
+                    <p class="reviews__description">Our clients are always satisfied with our work</p>
+                </header>
+
+                <div class="reviews__container">
+                    <article class="reviews__review">
+                        <span class="review__company">
+                            <img class="review__img" src="./assets/img/google-2.png" alt="">
+                        </span>
+
+                        <p class="review__description">On Google you will always find what you are looking for, but keep
+                            in
+                            mind to search correctly</p>
+
+                        <div class="review__author">
+                            <div class="author__container-img">
+                                <img class="author__img" src="./assets/img/testimonial-2.png" alt="foto de usuario">
+                            </div>
+                            <div class="author__content">
+                                <span class="author__name">Victor Gonzales</span>
+                                <span class="author__description">Desarrollador</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="reviews__review">
+                        <span class="review__company">
+                            <img class="review__img" src="./assets/img/udemy.png" alt="">
+                        </span>
+
+                        <p class="review__description">On Google you will always find what you are looking for, but keep
+                            in
+                            mind to search correctly</p>
+
+                        <div class="review__author">
+                            <div class="author__container-img">
+                                <img class="author__img" src="./assets/img/testimonial-2.png" alt="foto de usuario">
+                            </div>
+                            <div class="author__content">
+                                <span class="author__name">Victor Gonzales</span>
+                                <span class="author__description">Desarrollador</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="reviews__review">
+                        <span class="review__company">
+                            <img class="review__img" src="./assets/img/youtube.png" alt="">
+                        </span>
+
+                        <p class="review__description">On Google you will always find what you are looking for, but keep
+                            in
+                            mind to search correctly</p>
+
+                        <div class="review__author">
+                            <div class="author__container-img">
+                                <img class="author__img" src="./assets/img/testimonial-2.png" alt="foto de usuario">
+                            </div>
+                            <div class="author__content">
+                                <span class="author__name">Victor Gonzales</span>
+                                <span class="author__description">Desarrollador</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+
+            <ul class="reviews__review-shapes">
+
+                <li class="review-shapes__item review-shapes--shapes3">
+                    <div class="review-shapes__container">
+                        <img class="review-shapes__img" src="./assets/img/bubble-1.png" alt="">
+                    </div>
+                </li>
+            </ul>
+
+
+        </section>
+        <!-- ?Resenas -->
+        <!-- !Seccion 7---------------------------- -->
+
+        <!-- !Seccion 8---------------------------- -->
+        <!-- ?Clientes -->
+        <section class="layout__clients">
+            <div class="clients__container">
+                <header class="clients__header">
+                    <h4 class="clients__subtitle">Our best clients</h4>
+                    <h2 class="clients__title">We have created the best solutions for...</h2>
+                    <p class="clients__description">
+                        We custom develop any project with the best computer technologies
+                    </p>
+                </header>
+
+                <div class="clients__logos">
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/brand-1.png" alt="">
+                    </article>
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/brand-1.png" alt="">
+                    </article>
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/brand-1.png" alt="">
+                    </article>
+                    <article class="clients__item">
+                        <img class="clients__img" src="./assets/img/brand-1.png" alt="">
+                    </article>
+                </div>
+            </div>
+
+
+            <ul class="clients__client-shapes">
+
+                <li class="client-shapes__item client-shapes--shapes3">
+                    <div class="client-shapes__container">
+                        <img class="client-shapes__img" src="./assets/img/line-9.png" alt="">
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <!-- ?Clientes -->
+        <!-- !Seccion 8---------------------------- -->
+
+        <!-- !Seccion 9---------------------------- -->
+        <!-- ?Noticias -->
+        <section class="layout__news">
+            <div class="news__container">
+                <header class="news__header">
+                    <h4 class="news__subtitle">what's going on?</h4>
+                    <h2 class="news__title">Last News</h2>
+                    <p class="news__description">
+                        The latest in web, mobile and design development...
+                    </p>
+                </header>
+
+                <div class="news__list">
+                    <article class="news__new">
+                        <div class="new__container-img">
+                            <img class="new__img" src="./assets/img/story-1.jpg" alt="">
+                        </div>
+                        <div class="new__content">
+                            <h3 class="new__title">
+                                <a href="#">
+                                    How to layout a website with HTML5 and CSS3?
+                                </a>
+                            </h3>
+                            <p class="new__description">
+                                Do you want to take your first steps in web development and learn how to create
+                                spectacular websites?
+                            </p>
+
+                            <a class="new__more" href="#">
+                                Learn more
+                                <i class="fa-solid fa-chevron-right new__icon"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="news__new">
+                        <div class="new__container-img">
+                            <img class="new__img" src="./assets/img/story-2.jpg" alt="">
+                        </div>
+                        <div class="new__content">
+                            <h3 class="new__title">
+                                <a href="#">
+                                    How to learn programming with Javascript
+                                </a>
+                            </h3>
+                            <p class="new__description">
+                                Getting started with client-side programming
+                            </p>
+
+                            <a class="new__more" href="#">
+                                Learn more
+                                <i class="fa-solid fa-chevron-right new__icon"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <ul class="news__new-shapes">
+                <li class="new-shapes__item new-shapes--shapes1">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/bubble-1.png" alt="">
+                    </div>
+                </li>
+
+                <li class="new-shapes__item new-shapes--shapes2">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/line-1.png" alt="">
+                    </div>
+                </li>
+
+                <li class="new-shapes__item new-shapes--shapes3">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/line-2.png" alt="">
+                    </div>
+                </li>
+
+                <li class="new-shapes__item new-shapes--shapes4">
+                    <div class="new-shapes__container">
+                        <img class="new-shapes__img" src="./assets/img/bubble-2.png" alt="">
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <!-- ?Noticias -->
+        <!-- !Seccion 9---------------------------- -->
+
+        <!-- !Seccion 10---------------------------- -->
+
+        <!-- ?Contacto -->
+
+        <section class="layout__contact">
+            <div class="contact__container">
+                <header class="contact__header">
+                    <h4 class="contact__subtitle">Let's work together</h4>
+                    <h2 class="contact__title">Shall we create a new project?</h2>
+                    <a class="contact__btn" href="#">Ask for budget</a>
+                </header>
+
+                <div class="contact__images">
+                    <div class="contact__thumb contact__thumb--chat">
+                        <img class="contact__img" src="./assets/img/chat-group.png" alt="">
+                    </div>
+
+                    <div class="contact__thumb contact__thumb--laptop">
+                        <img class="contact__img" src="./assets/img/laptop-poses.png" alt="">
+                    </div>
+
+                    <div class="contact__thumb contact__thumb--mobile">
+                        <img class="contact__img" src="./assets/img/men-mobile.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <ul class="contact__backshapes">
+                <li class="backshapes__item backshapes--shapes1">
+                    <img class="backshapes__img" src="./assets/img/bubble-12.png" alt="">
+                </li>
+
+                <li class="backshapes__item backshapes--shapes2">
+                    <img class="backshapes__img" src="./assets/img/bubble-16.png" alt="">
+                </li>
+
+                <li class="backshapes__item backshapes--shapes3">
+                    <img class="backshapes__img" src="./assets/img/bubble-13.png" alt="">
+                </li>
+
+                <li class="backshapes__item backshapes--shapes4">
+                    <img class="backshapes__img" src="./assets/img/bubble-14.png" alt="">
+                </li>
+
+                <li class="backshapes__item backshapes--shapes5">
+                    <img class="backshapes__img" src="./assets/img/bubble-16.png" alt="">
+                </li>
+
+                <li class="backshapes__item backshapes--shapes6">
+                    <img class="backshapes__img" src="./assets/img/bubble-15.png" alt="">
+                </li>
+
+                <li class="backshapes__item backshapes--shapes7">
+                    <img class="backshapes__img" src="./assets/img/bubble-16.png" alt="">
+                </li>
+
+            </ul>
+
+        </section>
+        <!-- !Seccion 10---------------------------- -->
+
+        <!-- !Seccion 11---------------------------- -->
+        <!-- ?Pie de pagina -->
+        <footer class="layout__footer">
+            <div class="footer__container">
+                <section class="footer__top">
+                    <ul class="footer__social">
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-facebook-f social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-twitter social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-youtube social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-linkedin social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-instagram social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-pinterest-p social__img"></i>
+                            </a>
+                        </li>
+
+
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-vimeo social__img"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <i class="fa-brands fa-behance social__img"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="footer__main">
+                    <div class="footer__fleft">
+                        <div class="fleft__container">
+                            <h2 class="fleft__title">Contact us</h2>
+                            <p class="fleft__subtitle">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui delectus quae minima, nulla
+                                deleniti odit repellendus dolores est incidunt? Perspiciatis eos praesentium quis
+                                debitis optio cupiditate, sunt porro blanditiis alias!
+                            </p>
+
+                            <form action="" class="fleft__form">
+                                <div class="fleft__group">
+                                    <span class="fleft__mail-icon">
+                                        <i class="fa-solid fa-envelope-open-text fleft__img"></i>
+                                    </span>
+                                    <input type="text" class="fleft__form-control" name="" id="" placeholder="Email">
+                                    <button class="fleft__button" type="submit">Suscribe</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="footer__fright">
+                        <div class="footer__widget footer__widget--50">
+                            <h6 class="widget__title">Services</h6>
+                            <ul class="widget__list">
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Design</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Web development</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Programming</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Marketing</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Consultancy</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__widget footer__widget--25">
+                            <h6 class="widget__title">Resources</h6>
+                            <ul class="widget__list">
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Blog</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Training</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Portfolio</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="footer__widget footer__widget--25">
+                            <h6 class="widget__title">technical support</h6>
+                            <ul class="widget__list">
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Contact</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Privacy policies</a>
+                                </li>
+
+                                <li class="widget__item">
+                                    <a href="#" class="widget__link">Terms of use</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="footer__bottom">
+                    <div class="footer__copyright">
+                        <span class="copyright__text">
+                            &copy; 2024 All rights reserved <a href="https://youtube.com">youtube.com</a>
+                        </span>
+                    </div>
+
+                    <div class="footer__links">
+                        <ul class="footer__flinks">
+                            <li class="flinks__item flinks__item--separator">
+                                <a href="#" class="flinks__title">Privacy policies</a>
+                            </li>
+
+                            <li class="flinks__item">
+                                <a href="#" class="flinks__title">Terms of use</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+        </footer>
+        <!-- ?Pie de pagina -->
+        <!-- !Seccion 11---------------------------- -->
+
+    </div>
+</body>
+
+</html>
